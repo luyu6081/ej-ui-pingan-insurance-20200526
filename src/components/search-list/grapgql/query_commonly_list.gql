@@ -1,0 +1,12 @@
+# 常用条件列表
+query userConditionSelectByUserId($input: UserConditionAppDTO) {
+  list: userConditionSelectByUserId (input: $input) {
+    userConditionId
+    userId
+    tenantId
+    pageId
+    conditionName
+    conditionContent
+    appKey
+  }
+}

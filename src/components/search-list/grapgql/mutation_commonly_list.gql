@@ -1,0 +1,12 @@
+# 编辑或增加常用条件
+mutation userConditionCreateOrUpdate($input: [MongoUserConditionDTO]!) {
+  result: userConditionCreateOrUpdate (input: $input) {
+    userConditionId
+    userId
+    tenantId
+    pageId
+    conditionName
+    conditionContent
+    appKey
+  }
+}

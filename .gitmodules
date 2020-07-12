@@ -1,0 +1,3 @@
+[submodule "ej-tailwind-config"]
+	path = externals/ej-tailwind-config
+	url = git@gitlab.com:ejresearch/infra_front/ej-tailwind-config.git
